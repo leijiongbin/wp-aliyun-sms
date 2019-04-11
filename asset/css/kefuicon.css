@@ -1,0 +1,51 @@
+
+@font-face {font-family: "kefuicon";
+  src: url('kefuicon.eot?t=1503039557874'); /* IE9*/
+  src: url('kefuicon.eot?t=1503039557874#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('kefuicon.woff?t=1503039557874') format('woff'), /* chrome, firefox */
+  url('kefuicon.ttf?t=1503039557874') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('kefuicon.svg?t=1503039557874#kefuicon') format('svg'); /* iOS 4.1- */
+}
+
+.kefuicon {
+  font-family:"kefuicon" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kefuicon-erweima:before { content: "\e647"; }
+
+.kefuicon-wangwangxian:before { content: "\e61a"; }
+
+.kefuicon-close:before { content: "\e6b6"; }
+
+.kefuicon-SER:before { content: "\e65f"; }
+
+.kefuicon-top:before { content: "\e7a3"; }
+
+.kefuicon-qqxian:before { content: "\e613"; }
+
+.kefuicon-kefu:before { content: "\e63d"; }
+
+.kefuicon-email:before { content: "\e634"; }
+
+.kefuicon-wangwangshi:before { content: "\e637"; }
+
+.kefuicon-skype:before { content: "\ee28"; }
+
+.kefuicon-dianhua:before { content: "\e68a"; }
+
+.kefuicon-topxian:before { content: "\e6d1"; }
+
+.kefuicon-qqshi:before { content: "\e75d"; }
+
+.kefuicon-dianhua1:before { content: "\e6e4"; }
+
+.kefuicon-guanbi:before { content: "\e61b"; }
+
+.kefuicon-kefu1:before { content: "\e603"; }
+
+.kefuicon-topshi:before { content: "\ee29"; }
+

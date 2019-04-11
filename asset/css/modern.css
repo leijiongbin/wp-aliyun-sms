@@ -1,0 +1,39 @@
+#kefu-cus-box img{border:none;}
+#kefu-cus-box div,#kefu-cus-box a,#kefu-cus-box ul,#kefu-cus-box li{box-sizing:content-box;-webkit-box-sizing:content-box;-ms-box-sizing:content-box;-moz-box-sizing:content-box;}
+#kefu-cus-box{position: fixed; right: 20px; bottom:150px; z-index: 9999;}
+#kefu-cus-box a{text-decoration: none; color: #333; font-size: 12px; font-family: "Microsoft Yahei";}
+#kefu-cus-box > div{position: relative;}
+#kefu-cus-box > div > a{ text-decoration: none; display: block; background-color: #fff; width: 40px; height: 40px; border-radius: 50%; box-shadow: 0px 0px 10px rgba(0,0,0,0.3); margin-top: 20px; text-align: center; line-height: 40px; font-size: 24px; color: #333;transition: all 0.6s; -webkit-transition: all 0.6s;-ms-transition: all 0.6s;-moz-transition: all 0.6s;}
+#kefu-cus-box > div > a:hover{color: #f60; text-decoration: none;}
+.kefu-cus-top{}
+#kefu-cus-box .kefu-cus-list-box{position: absolute; width: 110px; left: -115px; padding:0px; box-sizing:content-box;-webkit-box-sizing:content-box;-ms-box-sizing:content-box;-moz-box-sizing:content-box; top:-15px; -webkit-transition: all 0.6s; -webkit-transform:scale(0); opacity: 0; background-color: transparent;}
+#kefu-cus-box .kefu-cus-list-box.kefu-erweima{position: absolute; width: 220px; left: -225px; padding:0px; box-sizing:content-box; top:-80px;-moz-box-sizing:content-box; -webkit-box-sizing:content-box; -ms-box-sizing:content-box;  -webkit-transition: all 0.6s;-moz-transition: all 0.6s;-ms-transition: all 0.6s;transition: all 0.6s; -webkit-transform:scale(0);-moz-transform:scale(0);-ms-transform:scale(0);transform:scale(0); opacity: 0;}
+#kefu-cus-box  .kefu-cus-list{ width: 90px; padding:1px 10px; background-color: #fff;box-shadow: 0px 0px 10px rgba(0,0,0,0.3); border-radius: 5px; }
+#kefu-cus-box  .kefu-cus-list img{vertical-align: middle;}
+#kefu-cus-box .kefu-cus-list-box.kefu-erweima .kefu-cus-list{ width: 200px; height: 200px; padding:10px; background-color: #fff;box-shadow: 0px 0px 10px rgba(0,0,0,0.3); border-radius: 5px; }
+#kefu-cus-box .kefu-cus-list:after{content: ''; display: block; width: 10px; height: 10px; background-color: #fff; position: absolute; top: 30px; right: -5px; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}
+#kefu-cus-box .kefu-cus-list-box.kefu-erweima .kefu-cus-list:after{top: 95px;}
+#kefu-cus-box .kefu-cus-list ul{list-style: none; margin:0; padding:0; background-color: transparent;}
+#kefu-cus-box .kefu-cus-list ul li{margin:10px 0; padding:0;}
+#kefu-cus-box .kefu-cus-list ul li p{font-size: 12px; color: #333; padding:0; margin:0;}
+
+#kefu-cus-box > div:hover .kefu-cus-list-box{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);transform:scale(1); opacity: 1;}
+#kefu-cus-box .kefuicon-qqshi:before,
+#kefu-cus-box .kefuicon-qqxian:before,
+#kefu-cus-box .kefuicon-dianhua1:before,
+#kefu-cus-box .kefuicon-dianhua:before,
+#kefu-cus-box .kefuicon-wangwangxian:before,
+#kefu-cus-box .kefuicon-topxian:before,
+#kefu-cus-box .kefuicon-erweima:before,
+#kefu-cus-box .kefuicon-topshi:before,
+#kefu-cus-box .kefuicon-wangwangshi:before,
+.kefuicon-SER:before
+{ font-family: "kefuicon"; line-height: 40px; margin:0;}
+
+
+#kefu-mobile-cus{position: fixed; right: 20px; z-index: 9999; display: none; background-color: #fff; width: 40px; height: 40px; border-radius: 50%; box-shadow: 0px 0px 10px rgba(0,0,0,0.3); text-align: center; line-height: 40px; font-size: 24px; color: #333;transition: all 0.6s; -webkit-transition: all 0.6s;-ms-transition: all 0.6s;-moz-transition: all 0.6s; text-decoration: none;}
+#kefu-mobile-cus:hover{text-decoration: none;}
+.kefu-mobile-btn-hide{-webkit-transform:translate(100px,0);-moz-transform:translate(100px,0);-ms-transform:translate(100px,0);}
+#kefu-cus-box.kefu-cus-box-show{-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0); opacity: 1;}
+#kefu-mobile-cus-close-box{display:none; position: absolute!important; top: 50%; margin-top: -20px; left: -50px;}
+#kefu-mobile-cus-mask{display: none; position: fixed; top:0; left: 0; z-index: 9998;}
