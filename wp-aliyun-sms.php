@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: 阿里云短信认证
-Plugin URI: 
-Description: 阿里云短信认证
-Author: Ryan
-Author URI: 
+Plugin Name: 阿里云短信
+Plugin URI: https://github.com/leijiongbin
+Description: 阿里云短信
+Author: Ryan(leijiongbin@163.com)
+Author URI: https://github.com/leijiongbin
 Version: 1.0.0
 */
 
